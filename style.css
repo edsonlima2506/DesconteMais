@@ -1,0 +1,260 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    width: 100%;
+    height: 85px;
+    background-color: #0A2E36;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#superiorMenuList {
+    display: flex;
+    list-style: none;
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    margin: 20px;
+}
+
+#superiorMenuList li {
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+#superiorMenuList li:hover {
+    color: #0AFB67;
+}
+
+#banner {
+    width: 100%;
+    height: 600px;
+    background-image: URL(imagens/imagembanner.png);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#banner h1 {
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+#banner button {
+    width: 200px;
+    height: 50px;
+    border: 2px solid #FFFFFF;
+    border-radius: 5px;
+    margin-top: 20px;
+    background: none;
+    color: #FFFFFF;
+    font-weight: 900;
+}
+
+#banner button:hover {
+    background-color: #FFFFFF;
+    color: #0A2E36;
+    cursor: pointer;
+}
+
+#idea {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+#idea p {
+    color: #0A2E36;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#idea img {
+    width: 500px;
+}
+
+#aboutUs {
+    width: 100%;
+    height: 400px;
+    background-image: url(imagens/imagemTower.png);
+    background-size: cover;
+    background-position-y: center;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#aboutUs h1 {
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    cursor: pointer;
+}
+
+#aboutUs button {
+   width: 200px;
+   height: 50px;
+   border: 2px solid #FFFFFF;
+   border-radius: 5px;
+   margin-top: 20px;
+   background: none;
+   color: #FFFFFF;
+   font-weight: 900;
+}
+
+#aboutUs button:hover {
+   background-color: #FFFFFF;
+   color: #0A2E36;
+   cursor: pointer;
+}
+
+#partners {
+   margin-top: 40px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+#partners h1 {
+   color: #0A2E36;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: 900;
+}
+
+#logoList1 {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   list-style: none;
+}
+
+#logoList2 {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   list-style: none;
+}
+
+.logo {
+   width: 150px;
+   margin: 8px;
+}
+
+hr {
+   width: 90%;
+   height: 2px;
+   opacity: 50%;
+}
+
+#beAPartner {
+   width: 100%;
+   height: 400px;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: 900;
+   font-size: large;
+   color: #0A2E36;
+}
+
+#beAPartner img {
+   width: 500px;
+}
+
+#beAPartner button {
+   width: 150px;
+   height: 50px;
+   border: none;
+   border-radius: 5px;
+   background-color: #0A2E36;
+   color: #0AFB67;
+   font-weight: 900;
+   margin-top: 10px;
+   cursor: pointer;
+}
+
+#beAPartner button:hover {
+   background-color: #1b3d44;
+}
+
+#beAPartner div {
+   margin-left: 80px;
+}
+
+footer {
+   width: 100%;
+   height: 400px;
+   background-color: #0A2E36;
+   margin-top: 50px;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+}
+
+.parts p{
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: 500;
+   color: #FFFFFF;
+}
+
+#firstPart img {
+   margin-left: -20px;
+   margin-bottom: 25px;
+}
+
+#firstPart ul {
+   display: flex;
+   list-style: none;
+   margin-left: 20px;
+   margin-top: 35px;
+}
+
+#firstPart ul li img{
+   width: 30px;
+   margin-right: 50px;
+}
+
+#secondPart {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   justify-content: left;
+}
+
+#secondPart h1 {
+   color: #FFFFFF;
+   margin-bottom: 25px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+#secondPart button {
+   width: 100px;
+   height: 25px;
+   border: none;
+   border-radius: 5px;
+   background-color: #FFFFFF;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: 400;
+   color: #0A2E36;
+   margin-top: 20px;
+   cursor: pointer;
+}
