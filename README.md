@@ -29,7 +29,7 @@
    * Utilize o comando `code .` 
 <div>
 💻
-## Tecnologias
+ <h1>Tecnologias: </h1>
  </div>
 <div>
   <img align="center" alt="Edson-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
