@@ -27,10 +27,9 @@
 
 3. Abra os arquivos em seu editor de texto
    * Utilize o comando `code .` 
-<div>
-💻
- <h1>Tecnologias: </h1>
- </div>
+
+ <h1>💻 Tecnologias: </h1>
+ 
 <div>
   <img align="center" alt="Edson-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
   <img align="center" alt="Edson-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
