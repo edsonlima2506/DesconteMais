@@ -85,7 +85,7 @@ header {
 }
 
 #idea img {
-    width: 500px;
+    width: 50%;
 }
 
 #aboutUs {
@@ -128,9 +128,11 @@ header {
 #partners {
    margin-top: 40px;
    display: flex;
+   flex-wrap: wrap;
    flex-direction: column;
    justify-content: center;
    align-items: center;
+   width: 100%;
 }
 
 #partners h1 {
@@ -144,6 +146,7 @@ header {
    justify-content: center;
    align-items: center;
    list-style: none;
+   flex-wrap: wrap;
 }
 
 #logoList2 {
@@ -151,6 +154,7 @@ header {
    justify-content: center;
    align-items: center;
    list-style: none;
+   flex-wrap: wrap;
 }
 
 .logo {
@@ -177,7 +181,7 @@ hr {
 }
 
 #beAPartner img {
-   width: 500px;
+   width: 50%;
 }
 
 #beAPartner button {
@@ -257,4 +261,33 @@ footer {
    color: #0A2E36;
    margin-top: 20px;
    cursor: pointer;
+}
+
+@media screen and (max-width: 650px) {
+   #superiorMenuList {
+      display: none;
+   }
+
+   #banner {
+      text-align: center;
+   }
+
+   #idea {
+      flex-direction: column;
+   }
+
+   footer {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+   }
+
+   #firstPart {
+      margin-top: 30px;
+   }
+
+   #secondPart {
+      display: none;
+   }
+
 }
